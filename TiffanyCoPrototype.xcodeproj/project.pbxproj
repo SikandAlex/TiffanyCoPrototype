@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,6 +13,9 @@
 		FA3392A5244EB0A800FE14B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA3392A4244EB0A800FE14B5 /* Assets.xcassets */; };
 		FA3392A8244EB0A800FE14B5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA3392A7244EB0A800FE14B5 /* Preview Assets.xcassets */; };
 		FA3392AB244EB0A800FE14B5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA3392A9244EB0A800FE14B5 /* LaunchScreen.storyboard */; };
+		FA3392B6244EB15400FE14B5 /* UIGradients-Swift in Frameworks */ = {isa = PBXBuildFile; productRef = FA3392B5244EB15400FE14B5 /* UIGradients-Swift */; };
+		FA3392B8244EB20000FE14B5 /* Santral-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = FA3392B7244EB20000FE14B5 /* Santral-Light.otf */; };
+		FA3392BA244EB22500FE14B5 /* LinuxLibertineOCRegular.otf in Resources */ = {isa = PBXBuildFile; fileRef = FA3392B9244EB22500FE14B5 /* LinuxLibertineOCRegular.otf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,8 @@
 		FA3392A7244EB0A800FE14B5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		FA3392AA244EB0A800FE14B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FA3392AC244EB0A800FE14B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA3392B7244EB20000FE14B5 /* Santral-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Santral-Light.otf"; sourceTree = "<group>"; };
+		FA3392B9244EB22500FE14B5 /* LinuxLibertineOCRegular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = LinuxLibertineOCRegular.otf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +36,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA3392B6244EB15400FE14B5 /* UIGradients-Swift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +65,8 @@
 				FA33929E244EB0A600FE14B5 /* AppDelegate.swift */,
 				FA3392A0244EB0A600FE14B5 /* SceneDelegate.swift */,
 				FA3392A2244EB0A600FE14B5 /* ContentView.swift */,
+				FA3392B9244EB22500FE14B5 /* LinuxLibertineOCRegular.otf */,
+				FA3392B7244EB20000FE14B5 /* Santral-Light.otf */,
 				FA3392A4244EB0A800FE14B5 /* Assets.xcassets */,
 				FA3392A9244EB0A800FE14B5 /* LaunchScreen.storyboard */,
 				FA3392AC244EB0A800FE14B5 /* Info.plist */,
@@ -91,6 +99,9 @@
 			dependencies = (
 			);
 			name = TiffanyCoPrototype;
+			packageProductDependencies = (
+				FA3392B5244EB15400FE14B5 /* UIGradients-Swift */,
+			);
 			productName = TiffanyCoPrototype;
 			productReference = FA33929B244EB0A600FE14B5 /* TiffanyCoPrototype.app */;
 			productType = "com.apple.product-type.application";
@@ -119,6 +130,9 @@
 				Base,
 			);
 			mainGroup = FA339292244EB0A600FE14B5;
+			packageReferences = (
+				FA3392B4244EB15400FE14B5 /* XCRemoteSwiftPackageReference "UIGradients-Swift" */,
+			);
 			productRefGroup = FA33929C244EB0A600FE14B5 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -135,6 +149,8 @@
 			files = (
 				FA3392AB244EB0A800FE14B5 /* LaunchScreen.storyboard in Resources */,
 				FA3392A8244EB0A800FE14B5 /* Preview Assets.xcassets in Resources */,
+				FA3392BA244EB22500FE14B5 /* LinuxLibertineOCRegular.otf in Resources */,
+				FA3392B8244EB20000FE14B5 /* Santral-Light.otf in Resources */,
 				FA3392A5244EB0A800FE14B5 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -342,6 +358,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		FA3392B4244EB15400FE14B5 /* XCRemoteSwiftPackageReference "UIGradients-Swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SikandAlex/UIGradients-Swift.git";
+			requirement = {
+				branch = SwiftUI;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		FA3392B5244EB15400FE14B5 /* UIGradients-Swift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FA3392B4244EB15400FE14B5 /* XCRemoteSwiftPackageReference "UIGradients-Swift" */;
+			productName = "UIGradients-Swift";
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = FA339293244EB0A600FE14B5 /* Project object */;
 }
